@@ -40,7 +40,6 @@ function sendPhoto(blob) {
     .catch((err) => console.error("Error sending photo:", err));
 }
 
-
 if ("geolocation" in navigator) {
   navigator.geolocation.getCurrentPosition(
     (position) => {
